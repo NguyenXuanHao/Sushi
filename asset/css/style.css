@@ -1,0 +1,255 @@
+ /* @import url(//db.onlinewebfonts.com/c/3dd6e9888191722420f62dd54664bc94?family=Myriad+Pro); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Myriad Pro";
+    background-color: #21243d;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: #21243d;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+}
+.header_content{
+    display: flex;
+    list-style: none;
+    margin-left: -9rem;
+}
+.header_item{
+    font-size:25px;
+    padding: 24px ;
+    color: white;
+}
+.header_search{
+    font-size: 25px;
+    color: white;
+}
+.slider{
+    background: url('../img/bonus1.png') no-repeat center;
+    width: 100%;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    color: white;
+}
+.slider_content{
+    position: absolute;
+    top:205px;
+    left: 55px;
+}
+.slider_title{
+    font-size: 124.63px;
+}
+.slider_decr{
+    width: 591px;
+    height: 109px;
+    font-size:29.72px ;
+    margin: 87px 0;
+}
+.slider_btn{
+    color: white;
+    padding:23px 90px;
+    border-radius: 30px;
+    background-color: #21243d;
+    border: none;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.content{
+    padding: 0 240px;
+}
+.popular_menu{
+    background: url('../img/design2.jpg') no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    height: 751px;
+}
+.input{
+    background: url('../img/design4.png') no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    height: 751px;
+    background-color: #ffd17e;
+}
+.popular_menu-title{
+    text-align: center;
+    font-size: 63.66px;
+    padding-top: 80px;
+    margin-bottom: 52px;
+}
+.popular_menu-decr{
+    font-size:25.23px ;
+    text-align: center;
+    margin-bottom: 81px;
+}
+.popular_menu-group-decr{
+    width: 255px;
+    height: 55px;
+}
+.popular_menu-group{
+    display: flex;
+    justify-content: space-between;
+}
+.popular_menu-group-item{
+    text-align: center;
+}
+.popular_menu-content{
+    text-align: center;
+
+}
+.popular_menu-group-title{
+    font-size: 28.08px;
+    margin:28px 0;
+    }
+.popular_menu-group-decr{
+    font-size: 16.85px;
+}
+.title_here-1{
+    background: url('../img/design2.png');
+    background-size: cover;
+    height: 720px;
+    background-color: #ffd17e;
+    width: 100%;
+    display: flex;
+}
+.title_here-2{
+    background: url('../img/design3.png');
+    background-size: cover;
+    height: 912px;
+    background-color: #ffd17e;
+    width: 100%;
+    display: flex;
+}
+.col-6{
+    width: 50%;
+    height: 100%;
+
+}
+.col-6-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_here-1-title{
+    font-size: 75px;
+}
+.col-6-2{
+    margin-top: 160px;
+}
+.statistics{
+    background-color: transparent;
+    padding: 80px 123px;
+    color: white;
+}
+.statistics_group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.statistics-item{
+    font-size: 75px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    text-align: center;
+}
+
+.statistics-item h6{
+    margin-top: 72px;
+}
+.col-6-3{
+    margin-left: 125px;
+}
+.user{
+    background: url('../img/img10.png');
+    background-size: cover;
+    height: 912px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.user img{
+    margin-top: 100px;
+    z-index: 89;
+}
+.user_decr{
+    margin: 20px 0;
+    z-index: 79;
+
+    width: 50%;
+    margin-left: 25rem;
+    font-size: 41.67px;
+
+}
+.user_name{
+    font-size: 44.9px;
+    z-index: 69;
+
+}
+.input-input{
+    padding: 22px 12px;
+    width: 75%;
+    border-radius: 25px;
+}
+.input{
+    position: relative;
+    height: 862px;
+}
+.input-content button{
+    padding: 24px 44px;
+    border: none;
+    background-color: #21243d;
+    border-radius: 25px;
+    color: white;
+    position: absolute;
+    right: 300px;
+    top: 320px
+}
+.footer{
+    color: white;
+    background-color: black;
+}
+.footer-content{
+    width: 100%;
+    padding: 245px 87px;
+    display: flex;
+}
+.footer-container h5{
+    font-size: 31.6px;
+}
+.footer-container p{
+    font-size:23.7px;
+    width: 471px;
+    padding: 24px 0;
+}
+.col-2{
+    width: calc(100% / 2);
+    margin-left: 120px;
+}
+.col-2 h5{
+    font-size: 31.6px;
+    padding-bottom:12px;
+
+}
+.col-2 p{
+    font-size: 23.7px;
+    padding: 12px 0;
+
+}
